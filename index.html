@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="DoubleCheck">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" type="image/ico" href="./assets/images/favicon.ico" />
+    <!--  styles -->
+    <link rel="stylesheet" href="./assets/fontawesome/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="./library/bootstrap/dist/css/bootstrap.min.css">
+    <!-- App styles -->
+    <link rel="stylesheet" href="./assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="./assets/fonts/pe-icon-7-stroke/css/helper.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/custom.css">
+    <link rel="stylesheet" href="./assets/styles/">
+    <!--  scripts -->
+    <script src="./library/jquery/dist/jquery.min.js"></script>
+    <script src="./library/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./assets/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="./assets/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="./assets/sparkline/index.js"></script>
+    <script src="./assets/iCheck/icheck.min.js"></script>
+    <!-- App scripts -->
+    <script src="./assets/scripts/homer.js"></script>
+
+    <!--Angular cdns-->
+    <!-- <script src="./library/angular/angular.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <!-- <script src="./library/angular-ui-router/release/angular-ui-router.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.18/angular-ui-router.min.js"></script>
+    <script src="./angular-app/routing/app.routes.js"></script>
+    <script src="./angular-app/contollers/home.controller.js"></script>
+    <script src="./angular-app/services/app.service.js "></script>
+</head>
+
+<body class="landing-page">
+   <div ng-include="'./views/header.html'"></div>
+    <div ui-view></div>
+    <div ng-include="'./views/footer.html'"></div> 
+    
+</body>
+
+
+</html>

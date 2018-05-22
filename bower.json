@@ -1,0 +1,35 @@
+{
+  "name": "double check",
+  "authors": [
+    "betabulls"
+  ],
+  "description": "Site performance",
+  "main": "index",
+  "keywords": [
+    "spell",
+    "checker",
+    "pages",
+    "insights",
+    "link",
+    "checker",
+    "and",
+    "word",
+    "density"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.7.0",
+    "jquery": "^3.3.1",
+    "angular-ui-router": "^1.0.18",
+    "bootstrap": "3.3.7"
+  }
+}
